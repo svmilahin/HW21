@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson-21"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Milakhin <sv_milakhin@vsh1.ru>"]
+readme = "README.md"
+packages = [{include = "lesson_21"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.6"
+mypy = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
